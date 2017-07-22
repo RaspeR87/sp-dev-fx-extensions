@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "spfx-fieldcustomizer-client-side-solution",
+    "id": "5721ced6-2b81-425a-87b6-c15b0441fa26",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-fieldcustomizer.sppkg"
+  }
+}
