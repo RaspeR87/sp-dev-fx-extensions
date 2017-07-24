@@ -35,12 +35,17 @@ class PlannerDialogContent extends React.Component<IPlannerDialogContentProps, {
       showCloseButton={true}
     >
       
-      <TextField label='Title' required={ true } multiline autoAdjustHeight value={ this._title } />
+      <TextField label='Title' required={ true } multiline autoAdjustHeight value={ this._title } onChanged={ this._onChanged } />
       <DialogFooter>
         <Button text='Cancel' title='Cancel' onClick={this.props.close} />
         <PrimaryButton text='OK' title='OK' onClick={() => { this.props.submit(this._title); }} />
       </DialogFooter>
     </DialogContent>;
+  }
+
+  @autobind
+  private _onChanged(text: string) {
+    this._title = text;
   }
 }
 
