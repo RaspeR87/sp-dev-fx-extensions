@@ -1,0 +1,18 @@
+{
+  "$schema": "../../node_modules/@microsoft/sp-module-interfaces/lib/manifestSchemas/jsonSchemas/clientSideComponentManifestSchema.json",
+
+  "id": "8f32e654-0417-4eb9-b856-2414d8834274",
+  "alias": "HelloWorldCommandSet",
+  "componentType": "Extension",
+  "extensionType": "ListViewCommandSet",
+  "version": "*", // The "*" signifies that the version should be taken from the package.json
+  "manifestVersion": 2,
+  "safeWithCustomScriptDisabled": true,
+
+  "commands": {
+    "CMDAddToPlanner": {
+      "title": "Add To O365 Planner",
+      "iconImageUrl": "icons/request.png"
+    }
+  }
+}

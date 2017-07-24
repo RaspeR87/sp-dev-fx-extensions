@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "spfx-react-commcust-graph-planner-client-side-solution",
+    "id": "cb4bf0f8-833e-4490-92e3-0d4d44d31989",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-react-commcust-graph-planner.sppkg"
+  }
+}
