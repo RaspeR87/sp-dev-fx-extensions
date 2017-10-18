@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "name": "spfx-react-appcust-globalnav-client-side-solution",
+    "id": "fc9b742b-2b2f-46d3-9297-cdb2b4afa16f",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/spfx-react-appcust-globalnav.sppkg"
+  }
+}

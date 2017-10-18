@@ -1,0 +1,13 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/extensions/rr87GlobalNavBar/Rr87GlobalNavBarApplicationCustomizer.js",
+      "manifest": "./src/extensions/rr87GlobalNavBar/Rr87GlobalNavBarApplicationCustomizer.manifest.json",
+      "outputPath": "./dist/rr-87-global-nav-bar.bundle.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "rr87GlobalNavBarStrings": "extensions/rr87GlobalNavBar/loc/{locale}.js"
+  }
+}
